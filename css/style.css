@@ -105,10 +105,10 @@ ul {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.main-title-button: :hover {
+.main-title-button:hover {
   background-color: #404bbf;
 }
-.main-title-button: :hover {
+.main-title-button:focus {
   background-color: #404bbf;
 }
 /*------------------- MAIN - OURTEAM ---------------*/
@@ -137,6 +137,14 @@ ul {
   letter-spacing: 0.02em;
 }
 .main-ourteam-subtitle {
+  color: var(--NAVY-BLUE, #2e2f42);
+  /* Header 3 */
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
 }
 .main-ourteam-text {
 }
@@ -160,6 +168,7 @@ ul {
   background-color: #ffffff;
 }
 .main-people-item {
+  background-color: #ffffff;
 }
 .main-people-img {
 }
