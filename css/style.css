@@ -1,24 +1,13 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
 a {
   text-decoration: none;
 }
 ul {
   list-style: none;
-}
-.link {
-  text-decoration: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 /*------------------- HEADER ---------------*/
@@ -31,17 +20,17 @@ ul {
 }
 .header-logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .header-logo span {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 }
 .header-list {
 }
@@ -58,6 +47,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .address {
+  font-style: normal;
 }
 .address-list {
 }
@@ -72,6 +62,12 @@ ul {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+.address-item-link:hover {
+  color: #404bbf;
+}
+.address-item-link:focus {
+  color: #404bbf;
 }
 /*------------------- MAIN ---------------*/
 .main {
@@ -92,14 +88,22 @@ ul {
   letter-spacing: 0.02em;
 }
 .main-title-button {
+  background-color: #4d5ae5;
   color: var(--WHITE, #fff);
   /* Button Text */
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.main-title-button: :hover {
+  background-color: #404bbf;
+}
+.main-title-button: :hover {
+  background-color: #404bbf;
 }
 /*------------------- MAIN - OURTEAM ---------------*/
 .main-ourteam {
@@ -230,7 +234,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-link span {
+.footer-span {
   color: var(--IRIS, #f4f4fd);
   font-family: Raleway, sans-serif;
 }
